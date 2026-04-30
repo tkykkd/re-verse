@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+  
+  --color-universe-midnight: #050810;
+  --color-universe-teal: #00f5ff;
+  --color-universe-silver: #c0c0c0;
+  --color-universe-prism: #f8f8f8;
+}
+
+@layer base {
+  body {
+    @apply bg-universe-midnight text-universe-prism font-sans selection:bg-universe-teal selection:text-universe-midnight;
+  }
+}
+
+.glow-teal {
+  text-shadow: 0 0 10px rgba(0, 245, 255, 0.5);
+}
+
+.glass-morphism {
+  @apply bg-white/5 backdrop-blur-md border border-white/10;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-linear-to-b from-universe-prism to-universe-silver;
+}
