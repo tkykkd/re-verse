@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "motion/react";
 import Logo from "./Logo";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Header() {
   return (
@@ -20,13 +21,16 @@ export default function Header() {
           <NavLink href="#company">COMPANY</NavLink>
         </nav>
 
-        <motion.button 
-          className="px-6 py-2 border border-universe-teal/50 text-universe-teal text-xs tracking-widest hover:bg-universe-teal hover:text-universe-midnight transition-colors"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          CONTACT
-        </motion.button>
+        <div className="flex items-center gap-4">
+          <LanguageSwitcher />
+          <motion.button
+            className="px-6 py-2 border border-universe-teal/50 text-universe-teal text-xs tracking-widest hover:bg-universe-teal hover:text-universe-midnight transition-colors"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            CONTACT
+          </motion.button>
+        </div>
       </div>
     </motion.header>
   );
