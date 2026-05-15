@@ -28,3 +28,11 @@
 .text-gradient {
   @apply bg-clip-text text-transparent bg-linear-to-b from-universe-prism to-universe-silver;
 }
+
+/* Dify chat widget — above header (z-40) and legal modal (z-50) */
+#dify-chatbot-bubble-button,
+#dify-chatbot-bubble-window,
+.dify-chatbot-bubble-button,
+.dify-chatbot-bubble-window {
+  z-index: 9999 !important;
+}

@@ -35,6 +35,8 @@ export type Translation = {
   footer: {
     tagline: string;
     newsletter: string;
+    chatDisclaimer: string;
+    portfolioNote: string;
     privacy: {
       title: string;
       subtitle: string;
@@ -101,6 +103,9 @@ export const translations: Record<Locale, Translation> = {
     footer: {
       tagline: "あなたの身体という宇宙を、美しく書き換える。",
       newsletter: "最新のバイオテクノロジーとRE-VERSEの革新を、あなたの受信箱へ。",
+      chatDisclaimer:
+        "このチャットはAIによる案内です。医療・購入の確約はできません。詳細はお問い合わせください。",
+      portfolioNote: "本サイトはポートフォリオ用の架空ブランド／デモサイトです。",
       privacy: {
         title: "Privacy Policy（プライバシーポリシー）",
         subtitle: "個人情報保護方針",
@@ -224,6 +229,9 @@ export const translations: Record<Locale, Translation> = {
     footer: {
       tagline: "Rewrite the universe that is your body, beautifully.",
       newsletter: "The latest in biotechnology and RE-VERSE innovation, delivered to your inbox.",
+      chatDisclaimer:
+        "This chat is AI-powered guidance only. We cannot guarantee medical outcomes or purchases. Please contact us for details.",
+      portfolioNote: "This site is a fictional brand created for portfolio demonstration.",
       privacy: {
         title: "Privacy Policy（プライバシーポリシー）",
         subtitle: "Personal Information Protection Policy",
@@ -347,6 +355,8 @@ export const translations: Record<Locale, Translation> = {
     footer: {
       tagline: "美丽地改写，名为你身体的宇宙。",
       newsletter: "将最新的生物科技与RE-VERSE创新，送达您的收件箱。",
+      chatDisclaimer: "本聊天为AI指引，不构成医疗或购买承诺。详情请通过联系我们确认。",
+      portfolioNote: "本网站为作品集用的虚构品牌／演示站点。",
       privacy: {
         title: "Privacy Policy（プライバシーポリシー）",
         subtitle: "个人信息保护方针",
@@ -470,6 +480,9 @@ export const translations: Record<Locale, Translation> = {
     footer: {
       tagline: "เขียนจักรวาลที่ชื่อว่าร่างกายของคุณใหม่ อย่างงดงาม",
       newsletter: "นวัตกรรมไบโอเทคโนโลยีและ RE-VERSE ล่าสุด ส่งตรงถึงกล่องจดหมายของคุณ",
+      chatDisclaimer:
+        "แชทนี้เป็นการให้ข้อมูลโดย AI เท่านั้น ไม่รับประกันผลทางการแพทย์หรือการซื้อ โปรดติดต่อเราสำหรับรายละเอียด",
+      portfolioNote: "เว็บไซต์นี้เป็นแบรนด์สมมติสำหรับผลงานพอร์ตโฟลิโอ／เดโม",
       privacy: {
         title: "Privacy Policy（プライバシーポリシー）",
         subtitle: "นโยบายการคุ้มครองข้อมูลส่วนบุคคล",

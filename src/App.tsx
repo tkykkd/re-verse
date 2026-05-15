@@ -16,6 +16,7 @@ import Products from "./components/Products";
 import MissionValues from "./components/MissionValues";
 import Company from "./components/Company";
 import Footer from "./components/Footer";
+import DifyChatEmbed from "./components/DifyChatEmbed";
 
 export default function App() {
   const { scrollYProgress } = useScroll();
@@ -50,6 +51,7 @@ export default function App() {
       </main>
 
       <Footer />
+      <DifyChatEmbed />
     </div>
   );
 }

@@ -72,6 +72,11 @@ export default function Footer() {
             </div>
           </motion.div>
 
+          <div className="mb-10 space-y-2 max-w-2xl text-[10px] leading-relaxed text-universe-silver/50 tracking-wide normal-case">
+            <p>{t.footer.chatDisclaimer}</p>
+            <p>{t.footer.portfolioNote}</p>
+          </div>
+
           <div className="flex flex-col md:flex-row justify-between items-center gap-8 pt-12 border-t border-white/5 opacity-40 text-[10px] tracking-[0.2em] uppercase font-medium">
             <p>© 2025 RE-VERSE Technologies Inc. All Rights Reserved.</p>
             <div className="flex gap-12">
