@@ -178,7 +178,7 @@ export const translations: Record<Locale, Translation> = {
     },
     hero: {
       headline: "Make time your ally.",
-      subtext: "逆転（REVERSE）、再誕（REBIRTH）、そして宇宙（UNIVERSE）。",
+      subtext: "Reversal（REVERSE）, Rebirth（REBIRTH）, and the Universe（UNIVERSE）.",
     },
     philosophy: {
       heading: "Rewrite the universe that is your body, beautifully.",
@@ -301,7 +301,7 @@ export const translations: Record<Locale, Translation> = {
     },
     hero: {
       headline: "来吧，让时间成为盟友。",
-      subtext: "逆転（REVERSE）、再誕（REBIRTH）、そして宇宙（UNIVERSE）。",
+      subtext: "逆转（REVERSE）、再生（REBIRTH），以及宇宙（UNIVERSE）。",
     },
     philosophy: {
       heading: "美丽地改写，名为你身体的宇宙。",
@@ -424,7 +424,7 @@ export const translations: Record<Locale, Translation> = {
     },
     hero: {
       headline: "มาร่วมทำให้เวลาเป็นมิตรกับคุณ",
-      subtext: "逆転（REVERSE）、再誕（REBIRTH）、そして宇宙（UNIVERSE）。",
+      subtext: "การพลิกกลับ（REVERSE）、การเกิดใหม่（REBIRTH）、และจักรวาล（UNIVERSE）",
     },
     philosophy: {
       heading: "เขียนจักรวาลที่ชื่อว่าร่างกายของคุณใหม่ อย่างงดงาม",
